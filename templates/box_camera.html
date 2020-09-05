@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <link
+    rel="stylesheet"
+    href="static/css/bootstrap_4.5.0.min.css"
+    />
+    <link rel="stylesheet" href="static/css/styles.css" />
+
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache"> 
+  </head>
+
+  <body>
+      
+    <div class="text-center mt-5 mb-5">
+      <h3>カゴが撮影できたらOKボタンを押してください</h3>
+      </div>
+   
+    <img src="{{ url_for('video_feed')}}" id="box_image">
+    <div class="container">
+      <div class="flex_container">
+        <div class="d-flex justify-content-around">
+          <button type="button" class="btn-dark" id="back_size_display" onclick="location.href='/'">
+            
+          </button>
+          <button type="button" class="btn-dark" id="ok" onclick="location.href='./result'">
+            OK
+          </button>
+          <!-- <button type="button" class="btn-danger" id="retake" onclick="location.href='./box_camera'">
+            撮りなおす
+          </button> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script
+      src="static/js/jquery-3.5.1.slim.min.js"
+    ></script>
+    <script
+      src="static/js/popper@1.16.0_popper.min.js"
+    ></script>
+    <script
+      src="static/js/4.5.0_bootstrap.min.js"
+    ></script>
+  </body>
+</html>

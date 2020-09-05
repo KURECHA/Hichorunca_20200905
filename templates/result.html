@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <link
+    rel="stylesheet"
+    href="static/css/bootstrap_4.5.0.min.css"
+    />
+    <link rel="stylesheet" href="static/css/styles.css" />
+  </head>
+
+    <body>
+      <div class="Header">
+      </div>
+      <div class="container">
+        <div class="flex_container">
+          <div class="d-flex justify-content-around">
+            <button type="button" class="btn-dark" id="back_size_display" onclick="location.href='/'">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <img src="static/image/{{image}}" class="img-fluid" alt="Responsive image" id="eco_bag_image">
+
+
+      <script type="text/javascript">
+          console.log("aaaa");
+
+        if (ecometa > 0) {
+          const p1 = document.createElement("meter");
+          p1.setAttribute("max", "100");
+          p1.setAttribute("low", "60");
+          p1.setAttribute("high", "89");
+          p1.setAttribute("value", "{{ ecometa }}");
+          p1.setAttribute("id", "meter_zone");
+      </script>
+
+     <!--<div>
+        <meter max="100" low="60" high="89" value= "{{ ecometa }}" id="meter_zone"></meter>
+        <p style="display:inline;">{{ecometa}}</p>%
+      </div> -->
+      <div>
+        <h2 class="result_text">{{result}}</h2>
+      </div>
+
+    <!-- Bootstrap -->
+    <script
+      src="static/js/jquery-3.5.1.slim.min.js"
+    ></script>
+    <script
+      src="static/js/popper@1.16.0_popper.min.js"
+    ></script>
+    <script
+      src="static/js/4.5.0_bootstrap.min.js"
+    ></script>
+  </body>
+</html>

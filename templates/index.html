@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <link
+    rel="stylesheet"
+    href="static/css/bootstrap_4.5.0.min.css"
+    />
+    <link rel="stylesheet" href="static/css/styles.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <div class="Header">
+      </div>
+    </header>
+    <div class="container">
+      <div class="text-center mt-5 mb-5">
+        <h3>エコバッグのサイズを選択してください</h3>
+      </div>
+      <!-- <div id="main"></div> -->
+      <div class="flex_container">
+        <div class="d-flex justify-content-around">
+          <button type="button" class="btn-light" id="big_size" onclick="location.href='./box_camera/big'">
+            大
+          </button>
+          <button type="button" class="btn-light" id="small_size" onclick="location.href='./box_camera/small'">
+            小
+          </button>
+          <button type="button" class="btn-light" id="custom" onclick="location.href='./custom'">
+            カスタム
+          </button>
+        </div>
+      </div>
+
+      <div class="flex_container">
+        <div class="d-flex justify-content-around">
+          <button type="button" class="btn-light" id="none_bag" onclick="location.href='./box_camera/none'">
+            レジ袋
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script
+      src="static/js/jquery-3.5.1.slim.min.js"
+    ></script>
+    <script
+      src="static/js/popper@1.16.0_popper.min.js"
+    ></script>
+    <script
+      src="static/js/4.5.0_bootstrap.min.js"
+    ></script>
+  </body>
+</html>
