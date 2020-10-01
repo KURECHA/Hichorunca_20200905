@@ -6,10 +6,11 @@
 マイバックを持ってないときやマイバックに全て入らないとき、L、Sサイズのレジ袋がそれぞれ何枚必要かを教えてくれる。  
   
 # 工夫した点
-カゴの容量をwebカメラで算出する際にエッジ検出と平滑化フィルタを用いて算出した点  
-<img alt="edge_image" src=static/image/frame_canny_in_item.jpg>  
+- カゴの容量をwebカメラで算出する際にエッジ検出と平滑化フィルタを用いて算出した点  
+<img alt="edge_image" src="static/image/frame_canny.jpg"> <img alt="edge_image" src="static/image/frame_canny_in_item.jpg">  
   
-UIの配色を山口県の特色を生かしたオレンジと緑に統一した点  
+- UIの配色を山口県の特色を生かしたオレンジと緑に統一した点  
+
 
   
 # 役割分担
