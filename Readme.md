@@ -10,9 +10,8 @@
 <img alt="edge_image" src="static/image/frame_canny.jpg"> <img alt="edge_image" src="static/image/frame_canny_in_item.jpg">  
   
 - UIの配色を山口県の特色を生かしたオレンジと緑に統一した点  
-
-
-  
+<img alt="edge_image" src="static/image/ui.png">
+         
 # 役割分担
 ## フロントエンド
 takoyaki_hiro：UIのテンプレートとプレゼンテーションを担当<br>
