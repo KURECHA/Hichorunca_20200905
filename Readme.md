@@ -30,7 +30,7 @@ w034ff：Flaskを用いてフロントエンドとバックエンド（python）
 
 # yoloの重み
 yoloで使う重みについては
-以下のurlからダウンロードします。
+以下のurlからダウンロードします。  
 https://drive.google.com/drive/folders/1fNoMnisQWs_-3IrnlP5QQbNdlsf173AD?usp=sharing
 
   
